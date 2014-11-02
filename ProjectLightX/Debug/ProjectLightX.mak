@@ -9,55 +9,57 @@ CFLAG=-W  -3 -Od -w- -AT -pc -H- -k -b -v -y  -DDEBUG
 OUTDIR=-nDebug
 CINCS=
 TARGET=Debug\ProjectLightX.exe
-SRC1="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\load.cpp"
+SRC1="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\load.cpp"
 OBJ1=Debug\load.obj
-SRC2="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\main.cpp"
+SRC2="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\main.cpp"
 OBJ2=Debug\main.obj
-SRC3="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\doc.cpp"
+SRC3="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\doc.cpp"
 OBJ3=Debug\doc.obj
-SRC4="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\config.cpp"
+SRC4="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\config.cpp"
 OBJ4=Debug\config.obj
-SRC5="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\game.cpp"
+SRC5="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\game.cpp"
 OBJ5=Debug\game.obj
-SRC6="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\gamenMgr.cpp"
+SRC6="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\gamenMgr.cpp"
 OBJ6=Debug\gamenMgr.obj
-SRC7="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\icon.cpp"
+SRC7="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\icon.cpp"
 OBJ7=Debug\icon.obj
-SRC8="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\map.cpp"
+SRC8="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\map.cpp"
 OBJ8=Debug\map.obj
-SRC9="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\menu.cpp"
+SRC9="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\menu.cpp"
 OBJ9=Debug\menu.obj
-SRC10="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\enemy.cpp"
+SRC10="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\enemy.cpp"
 OBJ10=Debug\enemy.obj
-SRC11="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\player.cpp"
+SRC11="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\player.cpp"
 OBJ11=Debug\player.obj
-SRC12="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\Eshot.cpp"
+SRC12="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\Eshot.cpp"
 OBJ12=Debug\Eshot.obj
-SRC13="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\Pshot.cpp"
+SRC13="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\Pshot.cpp"
 OBJ13=Debug\Pshot.obj
-SRC14="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\EUnit.cpp"
+SRC14="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\EUnit.cpp"
 OBJ14=Debug\EUnit.obj
-SRC15="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\PUnit.cpp"
+SRC15="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\PUnit.cpp"
 OBJ15=Debug\PUnit.obj
-SRC16="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\PHP.cpp"
+SRC16="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\PHP.cpp"
 OBJ16=Debug\PHP.obj
-SRC17="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\coll.cpp"
+SRC17="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\coll.cpp"
 OBJ17=Debug\coll.obj
-SRC18="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\panel.cpp"
+SRC18="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\panel.cpp"
 OBJ18=Debug\panel.obj
-SRC19="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\Weapon.cpp"
+SRC19="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\Weapon.cpp"
 OBJ19=Debug\Weapon.obj
-SRC20="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\Source.cpp"
+SRC20="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\Source.cpp"
 OBJ20=Debug\Source.obj
-SRC21="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\Key.cpp"
+SRC21="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\Key.cpp"
 OBJ21=Debug\Key.obj
-SRC22="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX\save.cpp"
+SRC22="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\save.cpp"
 OBJ22=Debug\save.obj
+SRC23="G:\working\BCC developper\bccdev1221\Daichi\ProjectLightX-v2\class.cpp"
+OBJ23=Debug\class.obj
 
 TARGET: $(TARGET)
 
-$(TARGET): $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) $(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) $(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) $(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20) $(OBJ21) $(OBJ22)
-    $(CC) $(CFLAG) -e$(TARGET) $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) $(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) $(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) $(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20) $(OBJ21) $(OBJ22)
+$(TARGET): $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) $(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) $(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) $(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20) $(OBJ21) $(OBJ22) $(OBJ23)
+    $(CC) $(CFLAG) -e$(TARGET) $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) $(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) $(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) $(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20) $(OBJ21) $(OBJ22) $(OBJ23)
 
 $(OBJ1): $(SRC1)
     $(CC) $(CFLAG) $(OUTDIR) $(CINCS) -c $(SRC1)
@@ -124,3 +126,6 @@ $(OBJ21): $(SRC21)
 
 $(OBJ22): $(SRC22)
     $(CC) $(CFLAG) $(OUTDIR) $(CINCS) -c $(SRC22)
+
+$(OBJ23): $(SRC23)
+    $(CC) $(CFLAG) $(OUTDIR) $(CINCS) -c $(SRC23)

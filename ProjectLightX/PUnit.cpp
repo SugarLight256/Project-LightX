@@ -5,6 +5,7 @@
 #include "PHP.h"
 #include "Source.h"
 #include "doc.h"
+#include "PUnit.h"
 
 struct UNITDATAP_t dataP[UNIT_MAX];
 extern struct UNITDATAE_t dataE[UNIT_MAX];
@@ -24,6 +25,8 @@ int lap;
 int befX;
 int befY;
 
+char a[100]="abcdefg";
+
 void PUnit_Re(){
 	for(int i=0;i<UNIT_MAX;i++){
 	for(int j=0;j<EQUIP_MAX;j++){
@@ -35,7 +38,7 @@ void PUnit_Re(){
 	}
 }
 
-void PUnit_Syoki(){  
+void PUnit_Syoki(){
 	int i;                             //“Ç‚Ýž‚Ý
 	PyotGraph  =LoadGraph("img/Unit/yot.png");
 	PikadaGraph=LoadGraph("img/Unit/ikada.png");

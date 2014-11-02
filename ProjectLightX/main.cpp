@@ -19,6 +19,7 @@
 
 int menuSelect=1;
 int MSelect;
+int BGM;
 
 int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
 

@@ -30,8 +30,8 @@ void PShot_Select(int i,int j,int k){
 					dataP[i].PEquip[j].dataPS[k].flag  = 1;
 					dataP[i].PEquip[j].cool            = 0;
 					dataP[i].PEquip[j].type            = 1;
-					dataP[i].PEquip[j].dataPS[k].speedX= 6;
-					dataP[i].PEquip[j].dataPS[k].speedY= 10;
+					dataP[i].PEquip[j].dataPS[k].speedX= 3;
+					dataP[i].PEquip[j].dataPS[k].speedY= 3;
 					dataP[i].PEquip[j].dataPS[k].type  = 1;
 					dataP[i].PEquip[j].dataPS[k].damage= 1;
 					dataP[i].PEquip[j].dataPS[k].Graph = PMG;
@@ -46,8 +46,8 @@ void PShot_Select(int i,int j,int k){
 					dataP[i].PEquip[j].dataPS[k].flag  = 1;
 					dataP[i].PEquip[j].cool            = 0;
 					dataP[i].PEquip[j].type            = 1;
-					dataP[i].PEquip[j].dataPS[k].speedX= 6;
-					dataP[i].PEquip[j].dataPS[k].speedY= 10;
+					dataP[i].PEquip[j].dataPS[k].speedX= 3;
+					dataP[i].PEquip[j].dataPS[k].speedY= 3;
 					dataP[i].PEquip[j].dataPS[k].type  = 1;
 					dataP[i].PEquip[j].dataPS[k].damage= 1;
 					dataP[i].PEquip[j].dataPS[k].Graph = PMG;
@@ -63,7 +63,7 @@ void PShot_Select(int i,int j,int k){
 					dataP[i].PEquip[j].cool            = 0;
 					dataP[i].PEquip[j].type            = 3;
 					dataP[i].PEquip[j].dataPS[k].speedX= 0;
-					dataP[i].PEquip[j].dataPS[k].speedY= 10;
+					dataP[i].PEquip[j].dataPS[k].speedY= 6;
 					dataP[i].PEquip[j].dataPS[k].type  = 3;
 					dataP[i].PEquip[j].dataPS[k].damage= 2;
 					dataP[i].PEquip[j].dataPS[k].Graph = PMS;

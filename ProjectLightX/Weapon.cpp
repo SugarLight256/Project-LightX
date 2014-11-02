@@ -33,7 +33,7 @@ void Shot_Draw(int x,int y,int Graph){
 
 int MG_Calc(int speedX,int Graph){
 
-	x += speedX;
+	x += speedX*2;
 	Shot_Draw(x , y , Graph);
 
 }
