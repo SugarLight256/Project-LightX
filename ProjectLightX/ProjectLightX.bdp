@@ -1,6 +1,6 @@
 [Project]
 Version=1.2.21
-Count=46
+Count=47
 Filename1=load.h,1,ProjectLightX.bdp,1,load.h
 Filename2=load.cpp,1,ProjectLightX.bdp,1,load.cpp
 Filename3=save.h,1,ProjectLightX.bdp,1,save.h
@@ -45,8 +45,9 @@ Filename41=Source.h,1,ProjectLightX.bdp,1,Source.h
 Filename42=Key.h,1,ProjectLightX.bdp,1,Key.h
 Filename43=Key.cpp,1,ProjectLightX.bdp,1,Key.cpp
 Filename44=struct.h,1,ProjectLightX.bdp,1,struct.h
-Filename45=save.cpp,1,ProjectLightX.bdp,1,save.cpp
-Filename46=class.cpp,1,ProjectLightX.bdp,1,class.cpp
+Filename45=define.h,1,ProjectLightX.bdp,1,define.h
+Filename46=save.cpp,1,ProjectLightX.bdp,1,save.cpp
+Filename47=class.cpp,1,ProjectLightX.bdp,1,class.cpp
 
 [Compile]
 ResourceName=ProjectLightX.rc
@@ -105,10 +106,12 @@ MakeBefore=
 MakeAfter=
 
 [OpenFiles]
-FileCount=4
-FileName1=struct.h
-FileName2=main.cpp
-FileName3=class.cpp
-FileName4=class.h
-ActivePageIndex=3
+FileCount=6
+FileName1=class.cpp
+FileName2=class.h
+FileName3=load.cpp
+FileName4=main.cpp
+FileName5=gamenMgr.cpp
+FileName6=PUnit.cpp
+ActivePageIndex=0
 
