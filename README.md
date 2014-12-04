@@ -1,11 +1,8 @@
 Project-LightX
 
 自作中のゲームです
-まだ使っていないファイルや
-未熟さ故に無駄なプログラムなど大量にありますが
-ご指摘いただけるとうれしいです
 
-斜方投射の落下地点からの初期速度の計算方法
-誰か教えてください！！
+スマホにURL打ち込むのめんどくさいから・・・
+http://ichitcltk.hustle.ne.jp/gudon2/index.php?pageType=file&id=Android035_Graphics2_SurfaceView
 
 ==============
